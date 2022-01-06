@@ -1,0 +1,85 @@
+:root {
+  --header-title-color: #ffffff;
+  --first-title-color: #ffffff;
+  --second-title-color: #2f303a;
+  --third-title-color: #212121;
+  --main-text-color: #757575;
+  --main-button-color: #ffffff;
+  --first-button-color: #ffffff;
+  --second-button-color: #212121;
+  --accent-color: #2196f3;
+  --header-text-color: #212121;
+  --hover-color: #2196f3;
+  --tet-accent-color: #000000;
+  --main-work-color: #2e2e2e;
+  --filter-btn-color: #f5f4fa;
+  --team-section-color: #f5f4fa;
+  --icon-color: #afb1b8;
+  --group-color: #afb1b8;
+}
+
+body {
+  font-family: Roboto, sans-serif;
+  color: var(--header-text-color);
+}
+
+button {
+  cursor: pointer;
+}
+
+.img {
+  display: block;
+  max-width: 100%;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
+
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+
+.current-link {
+  color: var(--accent-color);
+}
